@@ -1,0 +1,11 @@
+/*DIN-light*/
+@font-face {
+    font-family: 'DIN-Light';
+    src: local('DIN-Light'), url('./font/DIN\ Light.ttf') format('woff');
+}
+
+/*Google font pack*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans:wght@300;600&display=swap');
+/* font-family:'Open Sans', sans-serif;*/
+/* font-family:'Mulish',sans-serif;*/
+/*https://nomail.com.ua/files/woff/70d15931bc3b9f73e7c4ecd822b6fc18.woff

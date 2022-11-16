@@ -1,0 +1,479 @@
+@import url(./font.css);
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+}
+
+.header__inner {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 5%;
+  height: 65%;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  width: 45%;
+  height: 100%;
+}
+
+.header__menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  font-family: "DIN-Light";
+  text-transform: uppercase;
+}
+
+.language {
+  background-image: url(./img/united-kingdom.png);
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 25px;
+  height: 20px;
+}
+
+.book__btn {
+  position: relative;
+  right: 2.5%;
+  width: 15%;
+  height: 65%;
+  background-color: #5b6460;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book__btn > a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "DIN-Light";
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+.main__intro {
+  width: 100%;
+  height: 85vh;
+  background-image: url(./img/Intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.intro__inner {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 4em 3em;
+  position: relative;
+}
+
+.intro__hading {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  margin: 0;
+  line-height: 72px;
+}
+
+.intro__paragraf {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.arrow__placeholder {
+  position: absolute;
+  top: 90%;
+  right: 47%;
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+  color: #dadada;
+}
+
+.main__cabins {
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cabins__upper {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cabins__upper__paragraf,
+.main__forest__paragraf {
+  width: 50%;
+  height: 70%;
+  box-sizing: border-box;
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cabins__upper__paragraf > h2,
+.main__forest__paragraf > h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 10px;
+  color: #5b6460;
+}
+
+.cabins__upper__paragraf > p,
+.main__forest__paragraf > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+  width: 90%;
+}
+
+.cabins__upper__paragraf > a,
+.main__forest__paragraf > a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #5b6460;
+  text-decoration: none;
+}
+
+.cabins__upper__paragraf > a > span,
+.main__forest__paragraf > a > span {
+  content: "";
+  display: block;
+  background-color: #5b6460;
+  width: 80px;
+  height: 2px;
+}
+
+.cabins__upper__img {
+  width: 40%;
+  height: 100%;
+  background-image: url(./img/cabins.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cabins__lower {
+  width: 95%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabins__lower > img {
+  width: 32%;
+  height: 93%;
+}
+
+.main__forest {
+  background-color: #e9ece0;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+
+.main__forest__img {
+  width: 50%;
+  height: 100%;
+  background-image: url(./img/map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.forest__img__inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forest__img__inner > div {
+  height: 34%;
+  width: 27%;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: -3em;
+  border-radius: 50%;
+}
+
+.forest__img__inner > div > div {
+  height: 80%;
+  width: 75%;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.forest__img__inner > div > div > div {
+  height: 70%;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: "DIN-Light";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.main__facilities {
+  width: 100%;
+  height: 60vh;
+  background-color: #5b6460;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+.main__facilities > h2 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.main__facilities__inner {
+  width: 60%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__facilities__inner > div {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.main__about__us {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  position: relative;
+}
+
+.about__us__left,
+.about__us__right {
+  width: 50%;
+  height: 100%;
+  background-image: url(./img/more_about_us.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about__us__right {
+  background-image: url(./img/more_about_us_2.png);
+}
+
+.more__about__us {
+  position: absolute;
+  width: 10%;
+  height: 30%;
+  background-color: #e9ece0;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DIN-Light";
+  font-size: 16px;
+  top: calc(50% - 15%);
+  left: calc(50% - 5%);
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #5b6460;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer__inner__top {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.footer__inner__top > p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.footer__inner__top > ul {
+  list-style: none;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__inner__top > ul > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "DIN-light";
+  font-weight: 100;
+}
+
+.footer__inner__center {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.footer__inner__form {
+  width: 35%;
+  height: 70%;
+}
+.footer__inner__form > form {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  justify-content: space-between;
+}
+.footer__inner__form > form > input[type="text"] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  box-sizing: border-box;
+  padding-left: 1em;
+  color: white;
+}
+
+.footer__inner__form > form > input[type="text"] ::placeholder {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  box-sizing: border-box;
+  padding-left: 1em;
+  color: white;
+}
+
+.footer__inner__form > form > input[type="button"] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+}
+*/ .footer__inner__form > p {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+}
+.footer__list__pay {
+  width: 30%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  align-self: flex-start;
+}
+
+.footer__inner__bottom {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+}
